@@ -1,0 +1,92 @@
+body{
+	background: #f8f9fc;
+}
+.Photo{
+	width: 100%;
+        background: linear-gradient(
+103deg, #ff3d3d, #ffccccba);
+    height: 234px;
+ margin-bottom: 42px;
+    text-align: center;
+}
+
+.Photo input{
+
+    position: absolute;
+    bottom: 11%;
+    left: 43%;
+
+    width: 135px;
+    transition: .2s;
+   
+    border-radius: 10px;
+}
+.NomPre{
+	margin-top: 75px;
+
+    width: 435px;
+    margin: auto;
+    margin-top: 75px;
+        margin-bottom: 19px;
+}
+.Photo img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px double #ff4444;
+    box-shadow: 1px 1px 24px #ff4444;
+    position: relative;
+    top: 35px;
+}
+.NPEdite{
+
+    font-size: 20px;
+    color: #11a4b3;
+    cursor: pointer;
+    display: none;
+}
+.profile-description-box div{
+   
+    width: 441px;
+    height: 42px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.profile-description-box div input{
+font-size: 16px;
+    color: #11a4b3;
+    cursor: pointer;
+    display: ;
+    width: 314px;
+}
+.profile-description-box div .fa-edit{
+	display: none;
+}
+.profile-description-box div input{
+	display: none;
+}
+.Table-Commande{
+  	 background-color: white;
+    
+    position: relative;
+    overflow-y: auto;
+    margin-bottom: 2%;
+    margin-left: 18px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 9px;
+    padding: 26px;
+  }
+   .Table-Commande th{
+   	text-align: center;
+    border: none;
+    border-bottom: none !important;
+}
+.Table-Commande td{
+ 	text-align: center;
+}
+.CommandeNonLivre{
+	    width: 85%;
+    margin: 20px auto;
+}

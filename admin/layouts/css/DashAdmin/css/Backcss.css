@@ -1,0 +1,128 @@
+/*start Dash*/
+
+.DClient a:hover{
+   text-decoration: none;
+ 
+}
+.courb{
+    margin-left: 39px;
+    /*transform: rotate(180deg);*/
+   overflow: hidden;
+    width: 82%;
+    height: 91%;
+    position: absolute;
+    justify-content: space-between;
+}
+.courb div{
+        width: 80px;
+    /*height: 100%;*/
+    display: inline-block;
+    margin-top: 40%;
+    transition: height 2s ease;
+    margin-right: -4px;
+}
+.courb div:nth-of-type(1){
+  background: #1cc88a;
+}
+.courb div:nth-of-type(2){
+    background: #4e73df;
+}
+.courb div:nth-of-type(3){
+    background: #36b9cc;
+}
+/*End Dash*/
+/*start Commande*/
+  .Table-Commande{
+  	 background-color: white;
+    
+    position: relative;
+    overflow-y: auto;
+    margin-bottom: 2%;
+    margin-left: 18px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 9px;
+    padding: 26px;
+  }
+   .Table-Commande th{
+    border: none;
+    border-bottom: none !important;
+}
+.Table-Commande span{
+  padding: 4px;
+    width: 81px;
+    color: white;
+    border-radius: red;
+    border-radius: 9px;
+   
+    position: absolute;
+    left: 64px;
+}
+.Stats{
+       position: relative;
+    width: 106%;
+    top: -15px;
+    height: 117%;
+    overflow: hidden;
+}
+.Stats div div div div{
+     position: absolute !important;
+    left: -183px !important;
+    top: -109px !important;
+    width: 27% !important;
+    height: 75% !important;
+}
+.Stats rect{
+
+}
+/*End Commande*/
+/*start Login Form*/
+.Login{
+   
+    width: 503px;
+    margin: 49px auto;
+    padding: 13px;
+    background: white;
+}
+.Login input{
+  margin-bottom:10px ;
+}
+.Login .form-control{
+  background-color: #f9f9f9;
+}
+.Login .btn{
+  /*background-color: #008dde;*/
+}
+.Login h4{
+  color: #888;
+}
+/*end Login Form*/
+/*start Vue Client*/
+.donneText{
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.donneText .Contenu{
+     width: 342px;
+    display: inline-block;
+    height: 49px;
+    margin-bottom: 16px;
+ 
+}
+.donneText .Contenu label{
+          font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+}
+.donneText .Contenu label:nth-of-type(1){
+  margin: 20px;
+  margin-right: 0px;
+}
+.donneText .Contenu label:nth-of-type(2){
+  margin-left: 4px;
+}
+.ContenuP{
+  width: 705px;
+   
+}
+
+/*end Vue Client */
